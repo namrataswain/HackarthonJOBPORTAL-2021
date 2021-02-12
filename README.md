@@ -1,4 +1,4 @@
-# MICROSOFT Hackarthon - MY THEME : JOB PORTAL
+# MICROSOFT Hackathon - MY THEME : JOB PORTAL
 A job portal especially made for blue collard workers after covid-19 pandemic.
 # Features:
 * Firebase backed login of users.

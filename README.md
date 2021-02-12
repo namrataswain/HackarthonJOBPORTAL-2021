@@ -18,5 +18,5 @@ npm start
 ## live demo (deployed on Heroku)
 https://jobs4youu.herokuapp.com/
 
-//youtube video describing the project
+## youtube video describing the project
 https://www.youtube.com/watch?v=DTReknw4B7o&feature=youtu.be

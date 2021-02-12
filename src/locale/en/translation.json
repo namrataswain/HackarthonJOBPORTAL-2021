@@ -74,6 +74,7 @@
     "Sign in with your email and password" : "Sign in with your email and password",
     "email" : "email",
     "password" : "password",
+    "password of atleast of 6 characters" : "password password atleast of 6 characters",
     "Sign in with google": "Sign in with google",
     "Your message description" : "Your message description",
     "write a message": "Write a message",

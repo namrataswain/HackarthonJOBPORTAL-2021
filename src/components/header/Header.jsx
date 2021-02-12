@@ -11,8 +11,6 @@ const Header = ({ currentUser }) => {
     i18n.changeLanguage(lng);
   };
 
-
-  console.log(currentUser);
   return(
   <div className='header  navbar is-fixed-top'>
        

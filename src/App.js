@@ -1,12 +1,17 @@
 import "./App.sass";
 import "./App.css";
 import { withTranslation } from "react-i18next";
-import { Switch, Route } from "react-router-dom";
-
+import { Switch, Route, Redirect } from "react-router-dom";
+import SignInAndSignUpPage from "./Pages/Sign-in-and-sign-out-page/SignInAndSignUpPage";
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 import { Component } from "react";
 import Header from "./components/header/Header";
-import routes from "./routes";
+import HomePage from "./Pages/HomePage/HomePage";
+import SearchPage from "./Pages/SearchPage/SearchPage.component";
+import MyjobsPage from "./Pages/Covid19Page/covid-19-update.component.";
+import PostJob from "./components/PostJob/PostJob.component";
+import ApplyNow from "./components/Apply-Now/ApplyNow";
+
 
 class App extends Component {
   constructor(props) {
@@ -69,14 +74,14 @@ class App extends Component {
         />
 
         <Switch>
-          {routes.map((route, index) => (
-            <Route
-              key={index}
-              path={route.path}
-              exact={route.exact}
-              component={route.component}
-            />
-          ))}
+        <Route exact path="/signin"  render ={() => this.props.currentUser ? <Redirect to ='/'></Redirect> : (<SignInAndSignUpPage/>)} />
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/search" component={SearchPage} />
+        <Route exact path ='/myjobs' component={MyjobsPage}/>
+        <Route exact path='/applyNow' component={ApplyNow} />
+        <Route exact path='/postJob' component={PostJob}/>
+
+          
         </Switch>
       </div>
     );

@@ -1,13 +1,13 @@
 # MICROSOFT Hackarthon - MY THEME : JOB PORTAL
 A job portal especially made for blue collard workers after covid-19 pandemic.
-Features:
+# Features:
 * Firebase backed login of users.
 * Vernacular Support (HINDI & ENGLISH).
 * Covid 19 update page (allowing users to find jobs near their cities).
 * Searching jobs by the category/location/type of job. Eg. Delivery/New Delhi/Full time.
 * For employer, they can post a job opening.
 * For employees, they can post a message in case they lost their jobs and want to match with a suitable employer.
-*Career break women job opening : (will be working in future)
+* Career break women job opening : (will be working in future)
 
 
 
